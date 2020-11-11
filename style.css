@@ -7,6 +7,33 @@ i {
   display: block;
   color: #fff;
 }
+
+input[type=text], select , textarea{
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 40%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
 footer {
     color: #fff;
 }
@@ -69,6 +96,10 @@ iframe {
     font-family: 'Montserrat',"Helvetica Neue",Helvetica,Arial,sans-serif;
 	
    
+}
+.bord{
+  border: inset 1px;
+  
 }
 /**recently added*************/
 .navbar-custom .navbar-brand .navbar-toggle {
@@ -166,6 +197,7 @@ figure.snip0015 {
     width: 100%;
     -webkit-transition: opacity 0.35s;
     transition: opacity 0.35s;
+    
   }
   figure.snip0015 figcaption {
     position: absolute;
@@ -233,6 +265,7 @@ figure.snip0015 {
     -webkit-transition-delay: 0.3s;
     transition-delay: 0.3s;
   }
+  
   figure.snip0015:hover figcaption p {
     opacity: 0.9;
     -webkit-transition-delay: 0.6s;
@@ -289,6 +322,7 @@ figure.snip0015 {
     max-width: 100%;
     vertical-align: top;
     background-image: linear-gradient(#000000, #ffffff);
+    opacity: 0.35;
   }
   
   .snip1560 figcaption,
@@ -657,7 +691,7 @@ footer .footer-below {
 #intro {
 
 	/* background: url(../Images/cup-of-coffee-1280537_1920.jpg) no-repeat bottom center scroll; */
-	 background: url(https://res.cloudinary.com/ddqhcwp8j/image/upload/v1465835110/cup-of-coffee-1280537_1920medium_nngskf.jpg) no-repeat ;
+  background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(38, 37, 42)), center fixed url(image/pexels.jpg);
 	
 	width:auto;
 	height:800px;
@@ -667,11 +701,7 @@ background-size: cover;
 	
 }
             
-	.intro-section .brand-heading {
-	  font-size:45px;
-	 margin-top:200px;
-	
-}
+
 
 
 .portfolio-modal .close-modal .lr {
@@ -702,9 +732,6 @@ iframe {
 	height:100%;
 }
 
-.button span{
-	margin-bottom:30px;
-}
 #contact {
 	padding-bottom:145px;
 }
@@ -714,26 +741,42 @@ iframe {
         border-bottom: 1px solid rgba(255,255,255,.3);
         background: #000;
     }
-	
-	
+}
+.text-center {
+  text-align: center;
+  padding-bottom: 14px;
+}
 
-
-	
-
+.forma{
+  width: 460px;
+  height: 355px;
+  float: right;
 }
 
 
-/**landscape mode ******************/
 
-@media screen and (min-width:320px) and (max-width:767px) and (orientation:landscape) {
+@media screen and (min-width:320px) and (max-width:767px) {
   #intro { 
-           background: url(https://res.cloudinary.com/ddqhcwp8j/image/upload/v1465835109/cup-of-coffee-xs_pfy8mu.jpg) no repeat; 
+           background: url(/image/pexels.jpg) no repeat; 
 				width:auto;
-				height:500px;
+				height:550px;
 				
 }  
-
-
+.forma{
+  width: 350px;
+  height: 200px;
+}
+.text-center {
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 280px;
+  margin-bottom: -140px;
+}
+.text-cen{
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
 .portfolio-modal .close-modal .lr {
     z-index: 1051;
     width: 5px;
