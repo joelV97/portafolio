@@ -748,8 +748,8 @@ iframe {
 }
 
 .forma{
-  width: 200px;
-    height: 200px;
+  width: 400px;
+    height: 250px;
     padding-left: 20px;
   float: right;
 }
@@ -818,9 +818,6 @@ iframe {
 
 /****************************************************************/
 
-/*iPhone 6 Plus Portrait & Landscape Size*/
-
-  /**Portrait iphone 6 plus ************/
 
   
   /* @media only screen 
